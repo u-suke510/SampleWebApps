@@ -1,0 +1,8 @@
+﻿################################################################################
+# この .gitignore ファイルは Microsoft(R) Visual Studio によって自動的に作成されました。
+################################################################################
+
+/src/SampleWebApps/Webjobs/obj
+/src/SampleWebApps/Webjobs/bin
+/src/SampleWebApps/Libs/obj
+/src/SampleWebApps/Libs/bin
