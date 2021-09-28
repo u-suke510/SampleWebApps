@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Options;
 using System;
 using Webjobs.Managers;
+using Webjobs.Resources;
 
 namespace Webjobs.Services
 {
@@ -31,7 +32,7 @@ namespace Webjobs.Services
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, "[ERROR] Sample1.");
+                logger.LogError(ex, Resource.MsgErr1, ex.Message);
             }
         }
     }
